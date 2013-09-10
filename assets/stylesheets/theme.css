@@ -268,13 +268,64 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
     }
 }
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
-   /* Small desktop / ipad view: 3 tiles */
+  /* Small desktop / ipad view: 3 tiles */
+  .box {
+    width: 33.3%;
+    padding-bottom: 33.3%;
+  }
+  #wrap {
+    width:650px;
+  }
+  #nav {
+    float:none;
+    margin-bottom:20px;
+  }
+  #content {
+    margin-left:0;
+    float:none;
+         width: auto;
+  }
+  #wrapClear {
+    clear:none;
+  }
+  #logo {
+    float:left;
+  }
+  #menu {
+    float:left;
+    margin-left:20px;
+    margin-top:24px;
+  }
+  #menu ul li {
+    float:left;
+    margin:0 2px 0 0;
+  }
+  #menu ul li a {
+    padding:10px 15px;
+  }
+  #navClear {
+    display:inline;
+    clear:left;
+  }
+  #featureWrap .feature {
+    width: 190px;
+  }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
    .box {
-      width: 33.3%;
-      padding-bottom: 33.3%;
+      width: 25%;
+      padding-bottom: 25%;
    }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+    .box {
+      width: 25%;
+      padding-bottom: 25%;
+    }
     #wrap {
-      width:650px;
+      width:750px;
     }
     #nav {
       float:none;
@@ -310,11 +361,5 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
     #featureWrap .feature {
       width: 190px;
     }
-}
-@media only screen and (max-width : 1290px) and (min-width : 1051px) {
-   /* Medium desktop: 4 tiles */
-   .box {
-      width: 25%;
-      padding-bottom: 25%;
-   }
+  }
 }
