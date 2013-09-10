@@ -184,7 +184,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
       padding-bottom: 100%;
    }
    #wrap {
-      width:300px;
+      width:85%;
     }
     #nav {
       float:none;
@@ -229,7 +229,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
       padding-bottom: 50%;
    }
     #wrap {
-      width:480px;
+      width:85%;
     }
     #nav {
       float:none;
@@ -275,7 +275,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
     padding-bottom: 33.3%;
   }
   #wrap {
-    width:650px;
+    width:85%;
   }
   #nav {
     float:none;
@@ -319,7 +319,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
       padding-bottom: 25%;
     }
     #wrap {
-      width:850px;
+      width:85%;
     }
     #nav {
       float:none;
