@@ -204,6 +204,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
     #menu {
       float:left;
       font-size:12px;
+      margin-left: 5.1%
     }
     #menu ul li {
       float:left;
@@ -311,13 +312,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
     width: 190px;
   }
 }
-@media only screen and (max-width : 1290px) and (min-width : 1051px) {
-   /* Medium desktop: 4 tiles */
-   .box {
-      width: 25%;
-      padding-bottom: 25%;
-   }
-}
 
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
     .box {
@@ -344,8 +338,8 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
     }
     #menu {
       float:left;
-      margin-left:20px;
-      margin-top:24px;
+      margin-left: 15%;
+      margin-top: 24px;
     }
     #menu ul li {
       float:left;
@@ -362,4 +356,12 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
       width: 190px;
     }
   }
+}
+
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   .box {
+      width: 25%;
+      padding-bottom: 25%;
+   }
 }
